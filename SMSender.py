@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Example code on how to send a SMS, you can try it by running:
-send_sms.py http://admin:PASSWORD@192.168.8.1/ +390123456789 "Hello world"
+SMSender.py http://admin:PASSWORD@192.168.8.1/ +390123456789 "Hello world"
 
 Before install Python3 and after this addon from command line: 
 pip3 install requests
