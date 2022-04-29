@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
 Example code on how to send a SMS, you can try it by running:
-send_sms.py http://admin:PASSWORD@192.168.8.1/ +420123456789 "Hello world"
+send_sms.py http://admin:PASSWORD@192.168.8.1/ +390123456789 "Hello world"
 
-Before installa Python3 and after this addon: 
+Before install Python3 and after this addon from command line: 
 pip3 install requests
 pip install huawei-lte-api
-
 """
 
 
@@ -29,3 +28,5 @@ with Connection(args.url, username=args.username, password=args.password) as con
         print('SMS inviato correttamente')
     else:
         print('Errore durante invio')
+        
+        
